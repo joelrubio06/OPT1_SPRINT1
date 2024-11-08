@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Pobles</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Buscador de Pobles del Montsià</h1>
+    <p>Busca informació sobre els pobles de la comarca del Montsià</p>
+  </header>
+
+  <main>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Introdueix el nom del poble...">
+      <button onclick="searchPobles()">Cercar</button>
+    </div>
+    <div id="resultContainer" class="result-container"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
