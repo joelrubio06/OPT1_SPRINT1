@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<municipis>
+    <municipi nom="Sant Carles de la Ràpita">
+        <empresa>
+            <nom>Nom de l'empresa</nom>
+            <adreca>Adreça de l'empresa</adreca>
+            <ciutat>Sant Carles de la Ràpita</ciutat>
+            <codic_postal>43540</codic_postal>
+            <contacte>Contacte de l'empresa</contacte>
+            <telefon>Telèfon de l'empresa</telefon>
+            <empleats>Nombre d'empleats</empleats>
+            <sector>Sector empresarial</sector>
+            <any_fundacio>Any de fundació</any_fundacio>
+            <enllac>https://www.informa.es/directorio-empresas/Localidad_SANT-CARLES-RAPITA-TARRAGONA.html</enllac>
+        </empresa>
+    </municipi>
+</municipis>
