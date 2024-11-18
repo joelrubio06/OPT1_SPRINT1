@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<!-- Defineix que aquest document és un fitxer HTML5 -->
+
+<!-- idioma html en espanyol -->
+<html lang="es">
+<head>
+    <!-- Vinculem aquest fitxer de HTML al de Javascript -->
+    <script src="script.js"></script>
+
+    <!-- Defineix la codificació de caràcters per a mostrar caràcters especials com l'accent o la "ñ" -->
+    <meta charset="UTF-8">
+
+    <!-- Fa que la pàgina sigui responsive, és a dir, s'adapti a diferents mides de pantalla -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Defineix el títol de la pàgina que es mostrarà a la pestanya del navegador -->
+    <title>Formulari d'Empreses</title>
+
+    <!-- Vinculem el fitxer CSS extern per donar estil a la pàgina -->
+    <link rel="stylesheet" href="sytles.css">
+</head>
+<body>
+    <!-- Inici del formulari -->
+    <form onsubmit="guardarRespostesXML(); return false;">
+        <!-- Títol del formulari -->
+        <h1>FORMULARI D'EMPRESES</h1>
+        
+        <!-- Grup d'entrades per a les preguntes -->
+        <div class="input-group">
+            <label for="Pregunta1">1. La digitalització és un aspecte important al teu negoci?</label>
+            <input type="text" name="pregunta1" id="pregunta1" placeholder="Escriu la teva resposta"> 
+
+            <label for="Pregunta2">2. Identifiques les eines necessàries per digitalitzar el teu negoci?</label>
+            <input type="text" name="pregunta2" id="pregunta2" placeholder="Escriu la teva resposta">
+            
+            <label for="Pregunta3">3. S'utilitzen canals digitals?</label>
+            <input type="text" name="pregunta3" id="pregunta3" placeholder="Escriu la teva resposta">
+            
+            <label for="pregunta4">4. Fas servir algunes eines digitals de gestió en el teu negoci per automatitzar processos?</label>
+            <input type="text" name="pregunta4" id="pregunta4" placeholder="Escriu la teva resposta">
+
+            <label for="Pregunta5">5. Vens els teus productes i/o serveis a través de canals digitals?</label>
+            <input type="text" name="pregunta5" id="pregunta5" placeholder="Escriu la teva resposta">
+
+            <label for="pregunta6">6. Et relaciones amb els teus clients a través de canals digitals?</label>
+            <input type="text" name="pregunta6" id="pregunta6" placeholder="Escriu la teva resposta">
+
+            <label for="Pregunta7">7. El teu negoci té eines per mesurar la ràtio de satisfacció dels clients?</label>
+            <input type="text" name="pregunta7" id="pregunta7" placeholder="Escriu la teva resposta">
+
+            <!-- Botó per enviar el formulari, activant la funció guardarRespostesXML() -->
+            <input class="enviar" type="submit" value="Enviar" onclick="guardarRespostesXML()">
+        </div>
+    </form>
+</body>
+</html>
